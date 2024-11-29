@@ -6,7 +6,7 @@ import Details from '../components/Details';
 
 function App() {
   return (
-    <BrowserRouter basename="COMP-3170-lab07">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Countries />} />
         <Route path="/countries/:cca2" element={<Details />} />
@@ -15,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
